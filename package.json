@@ -1,0 +1,29 @@
+{
+  "name": "mongoose_skeleton",
+  "version": "1.0.0",
+  "description": "workout tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "author": "j davies",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "mongodb": "^3.5.6",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamesdavies1/Unit-17-Nosql-Homework-Workout-Tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jamesdavies1/Unit-17-Nosql-Homework-Workout-Tracker/issues"
+  },
+  "homepage": "https://github.com/Jamesdavies1/Unit-17-Nosql-Homework-Workout-Tracker#readme"
+}
